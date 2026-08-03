@@ -133,15 +133,15 @@ function Transactions() {
                 >
                   <Checkbox />
                   <div className="flex items-center gap-2 pr-2">
-                    <span className="h-6 w-6 rounded-full bg-[#8FE85C] flex items-center justify-center shrink-0">
+                    <span className="h-6 w-6 rounded-full bg-[#BBF49C] flex items-center justify-center shrink-0">
                       <img src={t.icon} alt={t.name} className="h-3 w-3 object-contain" />
                     </span>
                     <div>
-                      <p className="font-medium text-[#173B2A] leading-tight">{t.name}</p>
+                      <p className="font-medium text-[#242E2C] leading-tight">{t.name}</p>
                       <p className="text-[8px] text-[#A3B0AA]">{t.category}</p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-1.5 text-[#173B2A] pr-2">
+                  <div className="flex items-center gap-1.5 text-[#242E2C] pr-2">
                     {t.cardType === "visa" ? (
                       <span className="text-[8px] px-1 py-0.5 border rounded" style={{ borderColor: "#E4E2DD" }}>
                         VISA
@@ -153,14 +153,14 @@ function Transactions() {
                     )}
                     <span className="truncate">{t.card}</span>
                   </div>
-                  <span className="text-[#7C8B80] pr-2">{t.txnId}</span>
-                  <span className="text-[#7C8B80] pr-2 leading-tight">
+                  <span className="text-[#242E2C] pr-2">{t.txnId}</span>
+                  <span className="text-[#242E2C] pr-2 leading-tight">
                     {t.date} <br /> {t.time}
                   </span>
                   <span className="font-medium pr-2" style={{ color: t.positive ? "#1E4841" : "#F73541" }}>
                     {t.amount}
                   </span>
-                  <span className="text-[#7C8B80] pr-2 truncate">{t.note}</span>
+                  <span className="text-[#242E2C] pr-2 truncate">{t.note}</span>
                   <StatusBadge status={t.status} />
                 </div>
                 {i !== transactions.length - 1 && (
@@ -171,7 +171,7 @@ function Transactions() {
           </div>
 
           {/* Pagination */}
-          <div className="flex items-center justify-between px-3 py-2  mt-auto text-[10px] text-[#7C8B80]">
+          <div className="flex items-center justify-between px-3 py-2  mt-auto text-[10px] text-[#242E2C]">
             <span>Showing 12 out of 512</span>
             <div className="flex items-center gap-1">
               <button className="h-5 w-5 flex items-center justify-center rounded-md border border-[#E7EEE4]">

@@ -18,7 +18,7 @@ function RecentTransfer() {
             key={t.id}
             className="flex items-center gap-2 border border-[#E7EEE4] rounded-xl p-2.5"
           >
-            <span className="h-8 w-8 rounded-full bg-[#8FE85C] shrink-0"></span>
+            <span className="h-8 w-8 rounded-full bg-[#BBF49C] shrink-0"></span>
             <div className="min-w-0">
               <p className="text-[11px] font-medium text-[#173B2A] leading-tight truncate">{t.name}</p>
               <p className="text-[9px] text-[#A3B0AA] truncate">{t.id}</p>

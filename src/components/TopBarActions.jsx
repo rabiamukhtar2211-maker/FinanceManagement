@@ -29,7 +29,7 @@ function TopBarActions({ userName = "Andrew Forbist", avatarUrl }) {
         <span className="text-[18px] font-medium text-[#173B2A]">
           {userName}
         </span>
-        <div className="h-8 w-8 rounded-full bg-[#B6E4A0] overflow-hidden">
+        <div className="h-8 w-8 rounded-full bg-[#BBF49C] overflow-hidden">
           {avatarUrl && (
             <img
               src={avatarUrl}

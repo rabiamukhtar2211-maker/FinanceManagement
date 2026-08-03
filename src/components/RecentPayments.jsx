@@ -22,7 +22,7 @@ function RecentPayments() {
             key={p.id}
             className="flex items-center gap-3 border border-[#E7EEE4] rounded-xl p-4"
           >
-            <span className="h-9 w-9 rounded-full bg-[#8FE85C] shrink-0 flex items-center justify-center">
+            <span className="h-9 w-9 rounded-full bg-[#BBF49C] shrink-0 flex items-center justify-center">
               <img src={p.icon} alt={p.name} className="h-4 w-4 object-contain" />
             </span>
             <div className="min-w-0">
