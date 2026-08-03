@@ -4,6 +4,7 @@ import Transfer from "./components/Transfer";
 import Payment from "./components/Payment";
 import Transactions from "./components/Transactions";
 import Invoices from "./components/Invoices";
+import Plans from "./components/Plans";
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +15,7 @@ function App() {
         <Route path="/payments/transfer" element={<Transfer />} />
         <Route path="/payments/payment" element={<Payment />} />
         <Route path="/invoices" element={<Invoices />} />
+        <Route path="/saving-plans" element={<Plans />} />
         
 
 <Route path="/transactions" element={<Transactions />} />
