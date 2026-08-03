@@ -1,4 +1,4 @@
-import UnionIcon from "../assets/union.png";
+import UnionIcon from "../assets/Union.png";
 import SymbolIcon from "../assets/symbol.png";
 
 function BalanceCard() {

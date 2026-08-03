@@ -1,5 +1,5 @@
 import { useState } from "react";
-import MonitorIcon from "../assets/monitor.png";
+import MonitorIcon from "../assets/Monitor.png";
 import FirstAidIcon from "../assets/FirstAid.png";
 import CardIcon from "../assets/icon.png";
 

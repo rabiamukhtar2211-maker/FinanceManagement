@@ -1,7 +1,7 @@
 import { useState } from "react";
 import FirstAidIcon from "../assets/FirstAid.png";
 import ShoppingCartIcon from "../assets/ShoppingCart.png";
-import MonitorIcon from "../assets/monitor.png";
+import MonitorIcon from "../assets/Monitor.png";
 import UmbrellaIcon from "../assets/Umbrella.png";
 import GraduationCapIcon from "../assets/GraduationCap.png";
 import DotsIcon from "../assets/dots.png";
