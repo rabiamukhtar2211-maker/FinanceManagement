@@ -42,7 +42,7 @@ function Sidebar() {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <aside className="w-[140px] h-screen bg-[#ECF4E9] flex flex-col">
+    <aside className="w-[138px] h-screen bg-[#ECF4E9] flex flex-col">
       <div className="px-2 pt-2">
         <div className="flex items-center gap-2">
           <img src={Coinest} alt="Coinest Logo" className="w-6 h-4 object-contain" />
@@ -143,7 +143,7 @@ function Sidebar() {
         })}
       </div>
 
-      <div className="px-2 mt-14 mb-1">
+      <div className="px-2 mt-11 mb-1">
         <img src={Pro} alt="Pro" className="w-full object-contain" />
       </div>
     </aside>
