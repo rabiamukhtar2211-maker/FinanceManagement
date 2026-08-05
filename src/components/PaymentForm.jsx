@@ -32,7 +32,7 @@ function PaymentForm() {
 
           {/* Visa */}
           <div className="flex bg-white border border-[#E7EEE4] rounded-lg h-[46px] overflow-hidden">
-            <div className="h-full w-7 bg-[#EAF0FA] flex items-center justify-center shrink-0 mt-2 rounded-tr-lg">
+            <div className="h-full w-7 bg-[#ECF4E9] flex items-center justify-center shrink-0 mt-2 rounded-tr-lg">
               <span className="text-[6.5px] font-bold italic text-[#1E4841]">VISA</span>
             </div>
             <div className="flex flex-col justify-center px-2">
@@ -59,7 +59,7 @@ function PaymentForm() {
           </div>
           <div className="w-full bg-white rounded-lg px-2 py-1.5 flex items-center justify-between">
             <div className="flex items-center gap-1.5">
-              <span className="h-5 w-5 rounded-full bg-[#E5E6E6] flex items-center justify-center shrink-0">
+              <span className="h-5 w-5 rounded-full bg-[#ECF4E9] flex items-center justify-center shrink-0">
                 <img src={MonitorIcon} alt="provider" className="h-2.5 w-2.5 object-contain" />
               </span>
               <span className="text-[8px] text-[#173B2A]">Comcast Xfinity</span>
