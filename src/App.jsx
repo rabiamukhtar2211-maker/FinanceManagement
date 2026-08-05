@@ -5,6 +5,11 @@ import Payment from "./components/Payment";
 import Transactions from "./components/Transactions";
 import Invoices from "./components/Invoices";
 import Plans from "./components/Plans";
+import Cards from "./components/Cards";
+import Investments from "./components/Investments";
+import InBox from "./components/InBox";
+import PromoDetailsPage from "./components/PromoDetailsPage";
+import Promos from "./components/PromosPage";
 function App() {
   return (
     <BrowserRouter>
@@ -16,9 +21,12 @@ function App() {
         <Route path="/payments/payment" element={<Payment />} />
         <Route path="/invoices" element={<Invoices />} />
         <Route path="/saving-plans" element={<Plans />} />
-        
-
+         <Route path="/Cards" element={<Cards/>} />
+         <Route path="/Investments" element={<Investments/>} />
+           <Route path="/InBox" element={<InBox/>} />
 <Route path="/transactions" element={<Transactions />} />
+<Route path="/Promos" element={<Promos/>} />
+<Route path="/promos/:id" element={<PromoDetailsPage />} />
       </Routes>
     </BrowserRouter>
   );

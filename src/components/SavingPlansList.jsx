@@ -64,7 +64,7 @@ const plans = [
 
 function SavingPlansList() {
   return (
-    <div className="bg-white rounded-2xl border border-[#E5E6E6] p-3 h-full flex flex-col overflow-hidden">
+    <div className="bg-white rounded-2xl border border-[#E5E6E6] p-4 h-full flex flex-col overflow-hidden">
       {/* Header */}
       <div className="flex items-center justify-between mb-1.5 shrink-0">
         <span className="text-[11px] font-semibold text-black">Saving Plans</span>
@@ -72,11 +72,11 @@ function SavingPlansList() {
       </div>
 
       {/* Plans list */}
-      <div className="flex-1 min-h-0 overflow-y-auto flex flex-col gap-1">
+      <div className="flex-1 min-h-0 overflow-y-auto flex flex-col gap-3">
         {plans.map((plan) => (
           <div
             key={plan.name}
-            className={`rounded-lg p-1.5 ${
+            className={`rounded-lg p-2.5 ${
               plan.active ? "bg-[#ECF4E9]" : "bg-white border border-[#E5E6E6]"
             }`}
           >
@@ -97,7 +97,7 @@ function SavingPlansList() {
               </div>
             </div>
 
-            <div className="w-full h-1 bg-[#BBF49C] rounded-full overflow-hidden mb-1">
+            <div className="w-full h-2 bg-[#BBF49C] rounded-full overflow-hidden mb-1">
               <div
                 className="h-full bg-[#1E4841] rounded-full"
                 style={{ width: `${plan.percent}%` }}
