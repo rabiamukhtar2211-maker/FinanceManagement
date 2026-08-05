@@ -18,27 +18,29 @@ function Payment() {
           <TopBarActions userName="Andrew Forbist" />
         </div>
 
-        {/* Main content — 2 columns */}
-        <div className="flex-1 min-h-0 px-5 pb-2 grid grid-cols-[303px_1fr] gap-3">
-          {/* LEFT column: Quick Actions + Search + Categories */}
-          <div className="flex flex-col gap-3 min-h-0 overflow-hidden">
-            <div className="shrink-0">
-              <QuickActions />
+        {/* Main content — scrollable, footer stays fixed below it */}
+        <div className="flex-1 min-h-0 overflow-y-auto px-5 pb-2">
+          <div className="grid grid-cols-[303px_1fr] gap-3">
+            {/* LEFT column: Quick Actions + Search + Categories */}
+            <div className="flex flex-col gap-3">
+              <div className="shrink-0">
+                <QuickActions />
+              </div>
+              <div>
+                <ServiceCategories />
+              </div>
             </div>
-            <div className="flex-1 ">
-              <ServiceCategories />
+
+            {/* RIGHT column: Recent Payments + Payment Form */}
+            <div className="flex flex-col gap-1 border border-[#E7EEE4] rounded-2xl p-3">
+              <RecentPayments />
+              <PaymentForm />
             </div>
           </div>
-
-          {/* RIGHT column: Recent Payments + Payment Form */}
-          <div className="flex flex-col gap-1 border border-[#E7EEE4] rounded-2xl p-3">
-  <RecentPayments />
-  <PaymentForm />
-</div>
         </div>
 
-        {/* Footer */}
-        <div className="px-5 py-[-1] shrink-0">
+        {/* Footer — fixed, doesn't scroll */}
+        <div className="px-5 py-2 shrink-0">
           <Footer />
         </div>
       </div>
